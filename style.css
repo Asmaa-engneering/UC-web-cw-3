@@ -1,0 +1,92 @@
+/*  
+.card{
+    background-color: aqua;
+    padding: 12px;
+    margin: 32px;
+}
+h3{
+    margin: 0;
+
+}
+.outer{
+    padding: 12px;
+    background-color: blueviolet;
+    
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.inner{
+    background-color: aliceblue;
+   
+}
+*/
+/* 
+.player{
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    margin: 12px;
+    border-radius: 100px;
+
+    
+}
+body{
+    margin: 0;
+}
+p{
+    border: 5px dashed red;
+}
+
+.field{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    padding: 32px;
+    margin: 64px;
+    border-style: groove;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 12px;
+    transition: all 2s ease-in-out;
+    /*  اي تغير يصير على العنصر سواء بالكلاس الرئيسي او ال الهوفر راح يغير بالتدريج بشرط ينحط بالرئيسي */
+    /* all for all think can i put width :it will change just width "2sec " */
+
+/* هوفر هو التغير الا يصير بعد ما امر علية بالماوس */
+/*.field:hover{
+    box-shadow: 4px 4px grey;
+    width: 20px;
+}*/
+h1{
+    font-family: monospace;
+}
+ 
+.container{
+    width: 500px;
+    
+}
+.box{
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: 2px solid darkkhaki ;
+    position: relative;
+    animation-name: mymove;
+  animation-duration: 4s;
+}
+.box:hover{
+    background-color: turquoise;
+   
+}
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+  }
