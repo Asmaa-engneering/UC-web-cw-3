@@ -66,10 +66,16 @@ h1{
  
 .container{
     width: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
     
 }
 .box{
     height: 150px;
+    width: 150px;
     background-color: teal;
     margin: 1px;
     border-radius: 10px;
@@ -78,10 +84,12 @@ h1{
     position: relative;
     animation-name: mymove;
   animation-duration: 4s;
+ 
 }
 .box:hover{
     background-color: turquoise;
-   
+    box-shadow: 0 0 0 1px red;
+    
 }
 @keyframes mymove {
     0%   {top: 0px;}
@@ -89,4 +97,14 @@ h1{
     50%  {top: 100px;}
     75%  {top: 200px;}
     100% {top: 0px;}
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    /* لازم اعطية حجم الصفحة 100vh عطينا الكونتينر حجم او طول اكبر
+ */
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    
   }
